@@ -1,11 +1,40 @@
 .thumbnail {
+    position: relative;
+    gap: 0;
+    cursor: pointer;
+}
+.thumbnail-image {
     width: 200px;
     height: 300px;
     overflow: hidden;
     flex-shrink: 0;
 }
+.thumbnail-info {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(40,40,40);
+    margin-top: -5px;
+    display: none;
+    box-sizing: border-box;
+    white-space: wrap;
+}
+.thumbnail-info img {
+    width: 24px;
+}
+.thumbnail-info img:hover {
+    opacity: 0.6;
+}
 .thumbnail:hover {
     transform: scale(1.4,1.4);
-    transition: transform 0.35s;
-    overflow: hidden;
+    transition: transform 0.5s;
+}
+.thumbnail:hover .thumbnail-info {
+    display:block;
+    padding: 5px;
+}
+.thumbnail:hover .thumbnail-info p {
+    display:block;
+    margin: 0 0 10px 0;
+    font-size: 10px;
 }
