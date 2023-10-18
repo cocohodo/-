@@ -1,0 +1,10 @@
+.thumbnail {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+.thumbnail:hover {
+    transform: scale(1.4,1.4);
+    transition: transform 0.35s;
+    overflow: hidden;
+}

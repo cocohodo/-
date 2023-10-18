@@ -1,0 +1,25 @@
+.netflix-originals-title {
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.thumbnail-row {
+    display: flex;
+    gap: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+@media (max-width: 2000px) {
+        .thumbnail-row {
+            flex-wrap: wrap;
+        }
+}
+.trending-now-title {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
