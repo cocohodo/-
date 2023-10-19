@@ -11,14 +11,17 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
-    white-space: nowrap;
-}
-@media (max-width: 2000px) {
-        .thumbnail-row {
-            flex-wrap: wrap;
-        }
+    flex-wrap: wrap;
 }
 .trending-now-title {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.suggestions-for-you {
+    margin-bottom: 200px;
+}
+.suggestions-for-you-title {
     margin-left: 20px;
     font-size: 24px;
     font-weight: 500;

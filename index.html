@@ -22,8 +22,14 @@
                 <a href="index.html"><button class="header-menu">뉴스</button></a>
             </div>
             <div class="header-icon-right">
-                <a href="#">
-                    <img class="header-icon-search" src="assets/search.svg" alt="search">
+                <div class="header-search">
+                    <div class="header-search-container">
+                        <input class="header-search-input" type="text" placeholder="Movie Name">
+                        <div class="header-search-result"></div>
+                    </div>
+                </div>
+                <a class="header-icon-search" href="#">
+                    <img src="assets/search.svg" alt="search">
                 </a>
                 <div class="header-icon-notifications">
                     <img class="header-icon-notifications-icon" src="assets/notifications.svg">
@@ -61,7 +67,7 @@
                     <div class="thumbnail-info">
                         <div>엘리멘탈</div>
                         <p>별점 4.8 1시간 50분 전체이용가 2023</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -69,7 +75,7 @@
                     <div class="thumbnail-info">
                         <div>너의 이름은</div>
                         <p>별점 4.9 1시간 45분 전체이용가 2016</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -77,7 +83,7 @@
                     <div class="thumbnail-info">
                         <div>가필드</div>
                         <p>별점 4.4 1시간 53분 전체이용가 2009</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -85,7 +91,7 @@
                     <div class="thumbnail-info">
                         <div>날씨의 아이</div>
                         <p>별점 4.5 2시간 3분 전체이용가 2019</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -93,7 +99,7 @@
                     <div class="thumbnail-info">
                         <div>스즈메의 문단속</div>
                         <p>별점 4.7 1시간 58분 전체이용가 2022</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -101,7 +107,7 @@
                     <div class="thumbnail-info">
                         <div>탑건 매버릭</div>
                         <p>별점 4.8 1시간 46분 전체이용가 2022</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -109,7 +115,7 @@
                     <div class="thumbnail-info">
                         <div>슈퍼 마리오 브라더스</div>
                         <p>별점 4.5 1시간 43분 전체이용가 2023</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -117,7 +123,7 @@
                     <div class="thumbnail-info">
                         <div>어벤져스 인피니티 워</div>
                         <p>별점 4.9 1시간 59분 전체이용가 2019</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -125,7 +131,7 @@
                     <div class="thumbnail-info">
                         <div>위대한 쇼맨</div>
                         <p>별점 4.6 1시간 54분 전체이용가 2021</p>
-                        <img src="assets/play.png" alt="play button">
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
                     </div>
                 </div>
             </div>
@@ -135,31 +141,157 @@
                 Trending Now
             </div>
             <div class="thumbnail-row">
-                <img class="thumbnail-image" src="assets/10.jpg">
-                <img class="thumbnail-image" src="assets/11.jpg">
-                <img class="thumbnail-image" src="assets/12.jpg">
-                <img class="thumbnail-image" src="assets/13.jpg">
-                <img class="thumbnail-image" src="assets/14.jpg">
-                <img class="thumbnail-image" src="assets/15.jpg">
-                <img class="thumbnail-image" src="assets/16.jpg">
-                <img class="thumbnail-image" src="assets/17.jpg">
-                <img class="thumbnail-image" src="assets/18.jpg">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/10.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 수수께끼! 꽃피는 천하떡잎학교</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/11.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 폭풍수면! 꿈꾸는 세계 대돌격</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/12.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 나의 이사 이야기 선인장 대습격</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/13.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 B급 음식 서바이벌!</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/14.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 초시공! 태풍을 부르는 나의 신부</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/15.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 정면승부! 로봇아빠의 역습</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/16.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 태풍을 부르는 노래하는 엉덩이 폭탄!</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/17.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 신혼여행 허리케인 사라진 아빠</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/18.jpg">
+                    <div class="thumbnail-info">
+                        <div>짱구는 못말려 격돌! 낙서왕국과 얼추 네 명의 용사들</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="trending now">
-            <div class="trending-now-title">
+        <section class="suggestions-for-you">
+            <div class="suggestions-for-you-title">
                 Suggestions For You
             </div>
             <div class="thumbnail-row">
-                <img class="thumbnail-image" src="assets/19.jpg">
-                <img class="thumbnail-image" src="assets/20.jpg">
-                <img class="thumbnail-image" src="assets/21.jpg">
-                <img class="thumbnail-image" src="assets/22.jpg">
-                <img class="thumbnail-image" src="assets/23.jpg">
-                <img class="thumbnail-image" src="assets/24.jpg">
-                <img class="thumbnail-image" src="assets/25.jpg">
-                <img class="thumbnail-image" src="assets/26.jpg">
-                <img class="thumbnail-image" src="assets/27.jpg">
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/19.jpg">
+                    <div class="thumbnail-info">
+                        <div>업!</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/20.jpg">
+                    <div class="thumbnail-info">
+                        <div>하늘에서 음식이 내린다면!</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/21.jpg">
+                    <div class="thumbnail-info">
+                        <div>씽</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/22.jpg">
+                    <div class="thumbnail-info">
+                        <div>씽2게더</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/23.jpg">
+                    <div class="thumbnail-info">
+                        <div>미니언즈</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/24.jpg">
+                    <div class="thumbnail-info">
+                        <div>미니언즈2</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/25.jpg">
+                    <div class="thumbnail-info">
+                        <div>마다가스카</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/26.jpg">
+                    <div class="thumbnail-info">
+                        <div>마다가스카2</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail-image" src="assets/27.jpg">
+                    <div class="thumbnail-info">
+                        <div>마다가스카3</div>
+                        <p>별점 4.6 1시간 54분 전체이용가 2021</p>
+                        <img class="thumbnail-play" src="assets/play.png" alt="play button">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
